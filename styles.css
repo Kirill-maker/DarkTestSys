@@ -1,0 +1,87 @@
+
+* {
+    background: #1a1a1a !important;
+    color: #fff !important;
+    border-color: #444 !important;
+}
+
+img, video, canvas {
+    filter: invert(1) hue-rotate(180deg) brightness(0.85);
+}
+
+input, textarea, select {
+    background: #333 !important;
+    border: 1px solid #555 !important;
+}
+
+a {
+    color: #6ab0f3 !important;
+}
+
+
+svg {
+    filter: invert(1);
+}
+
+
+[style*="background: white"],
+[style*="background: #fff"],
+[style*="background-color: white"] {
+    background: #2d2d2d !important;
+}
+
+
+table, tr, td, th {
+    background: #222 !important;
+}
+
+
+button, .btn {
+    background: #333 !important;
+    border: 1px solid #555 !important;
+}
+
+
+.alert-success {
+    background: #1a4720 !important;
+    color: #90ee90 !important;
+}
+
+.alert-error {
+    background: #5a1a1a !important;
+    color: #ffb3ba !important;
+}
+
+[class*="status"] {
+    font-weight: bold !important;
+  }
+  
+  td {
+    color: #e0e0e0 !important;
+  }
+  
+  td:is(:contains("+"), :has(> :contains("+"))) {
+    color: #4CAF50 !important;
+  }
+  
+  td:is(:contains("-"), :has(> :contains("-"))) {
+    color: #F44336 !important;
+  }
+  
+
+  td:nth-child(6):contains("OK"),
+  td:nth-child(6):has(> :contains("OK")) {
+    color: #4CAF50 !important;
+  }
+  
+  td:nth-child(6):is(:contains("TL"), :contains("ML"), 
+                    :has(> :contains("TL")), 
+                    :has(> :contains("ML"))) {
+    color: #E91E63 !important;
+  }
+  
+  td:nth-child(6):not(:contains("OK"), :contains("TL"), :contains("ML")) {
+    color: #F44336 !important;
+  }
+
+  

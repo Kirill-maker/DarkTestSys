@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "TSWeb Color Coding",
+    "version": "1.1",
+    "content_scripts": [{
+      "matches": ["https://tsweb.ru/t/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }],
+    "permissions": ["activeTab"],
+    "icons": {"128": "icon.png"}
+  }
