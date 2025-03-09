@@ -69,4 +69,4 @@
 **Версия**: 2.0  
 **Лицензия**: MIT  
 
-[Сообщить об ошибке](ваша_ссылка_на_GitHub/issues) | [Исходный код](ваша_ссылка_на_GitHub)  
+[Сообщить об ошибке](https://github.com/Kirill-maker) | [Исходный код](https://github.com/Kirill-maker)  
